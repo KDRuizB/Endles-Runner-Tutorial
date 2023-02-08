@@ -6,6 +6,25 @@
 4. Unten rechts kannst du deinem Game noch einen Namen geben und auswählen wo es gespeichert werden soll
 5. Klicke auf "Create Project" und die Unity Engine startet sich von alleine
 
-02 Unity, Steuerung
+02 Unity, Steuerung (Umgebung)
 
-1. 
+1. Rechtsklick in die Scene (der Bereich in dem man alle Spielobjekte sieht):
+  + wasd, um sich in alle richtungen zu bewegen,
+  + mause, zum umsehen
+2. Der Bereich Links "Hiracrhy" zeigt alle Objekte an die sich aktuel in der Scene befinden
+
+_____________
+Scenen sind sozusagen verschiedene Level. Man kann sie sich wie Ordner vorstellen in denen man seine aktuelle arbeit für ein Level oder Menu speichert. Auf 
+diese Weise kann man einfach zwischen den Scenen wechseln, jenachdem an was man gerade arbeitet.
+_____________
+
+3. Ganz unten ist der Project ordner und das Terminal. Der Project ordner ist das Speicherverzeichniss des aktuellen Projects. Es ist wie der Datei Explorer in Windows.
+Hier kannst du alle Dateien aus deinen Project strukturiert ordnen, und in verschiedene Ordner unterteilen. Der ein oder andere der schonmal programmiert hat wird wissen 
+was das Terminal ist. In erster Linie zeigt es an, ob sich irgendwelche Fehler im Code befinden. Demendsprechend kann man sich in den meisten Fällen freuen wenn dieses 
+auch lehr bleibt. Man kann jedoch auch bestimmte sachen anzeigen lassen die man im Script definiert hat doch das ist ein Punkt für Teil 3.
+
+4. Auf der Rechten Seite hat man standard mäßig, den Inspector. Dieser Zeigt die aktuellen eigenschaften eines Gameobject an, das man in der Scene ausgewählt hat oder 
+in der Hirarchy angeklickt hat. Hier werden wir unseren Objekten später auch unsere Scripte, die wir in C# erstellen werden, hinzufügen und auch Funktionen von Unity.
+
+5. Doch am wichtigsten ist der Bereich in der mitte, die sogennatnte "Scnene" / "Game View". In der Scene werden wir Objekte einfügen und unser Game/Level zusammenstellen
+Hier wirst du dich am meisten befinden wenn du dein Game gestalltest.
